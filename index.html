@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+  <title>Dropbox-Filter RODRIGO</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <div id="box"></div>
+      <section>
+        <label for="color">Current Color</label>
+        <input type="color" id="color" value="#937b7b"/>
+
+        <label for="opacity">Opacity</label>
+        <input type="range" id="opacity" value="50" data-unit="%"/>
+        <span>0</span>
+
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" value="0" min="0" max="50" data-unit="px"/>
+        <span>0</span>
+
+        <label for="contrast">Contrast</label>
+        <input type="range" id="contrast" value="100" data-unit="%"/>
+        <span>0</span>
+
+        <label for="brightness">Brightness</label>
+        <input type="range" id="brightness" value="100" data-unit="%"/>
+        <span>0</span>
+
+        <label for="saturate">Saturate</label>
+        <input type="range" id="saturate" value="0" data-unit="%"/>
+        <span>0</span>
+
+        <label for="invert">Invert</label>
+        <input type="range" id="invert" value="0" data-unit="%"/>
+        <span>0</span>
+
+        <label for="size">Size</label>
+        <input type="range" id="size" min="0" max="250" data-unit="px"/>
+        <span>0</span>
+
+        <label for="radius">Border radius</label>
+        <input type="range" id="radius" min="0" max="50" data-unit="%"/>
+        <span>0</span>
+        <pre><h2>CSS Code</h2><code id="outputContainer"></code><input type="button" value="Copy"/></pre>
+
+      </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

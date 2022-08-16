@@ -1,0 +1,130 @@
+html {
+  font-size: 62,5%;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(http://definicionde.hugex.net/wp-content/uploads/2015/07/paisajes-natutrales-ecologiaverde-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+
+span {
+  visibility: hidden;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 30rem));
+  margin: auto;
+  justify-content: center;
+  padding: 1rem 3rem;
+}
+
+input[type="color"]::after {
+  content: attr(value);
+  position: absolute;
+  display: block;
+  width: 7rem;
+  top: 0;
+  left: 3.5rem;
+  background: rgb(196, 195, 195);
+  padding: 0.35rem;
+  border-radius: 0.2rem;
+}
+
+#color {
+  margin: 2% 80% 4% 1%;
+  width: 7 rem;
+  position: relative;
+}
+
+section {
+  display: grid;
+  grid-template-rows: 1fr;
+  /* min-width: 50%; */
+  /* max-width: 100%; */
+  width: 100%;
+  gap: 5px;
+  padding: 2rem;
+  border-radius: 1 rem;
+  color: rgb(231, 229, 229);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(80px);
+  backdrop-filter: contrast(50%);
+  backdrop-filter: brightness(50%);
+}
+
+input {
+  overflow: visible;
+}
+
+#box {
+  background-color: #937b7b;
+  margin: auto;
+  padding: 100px;
+  height: 100 px;
+  width: 500 px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+pre {
+  background-color: rgba(193, 174, 174, 0.45);
+  backdrop-filter: blur(7px);
+  backdrop-filter: contrast(77%);
+  backdrop-filter: brightness(42%);
+  backdrop-filter: saturate(46%);
+  backdrop-filter: invert(69%);
+}
+
+main pre {
+  display: block;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.2rem;
+  height: 11rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+main pre input {
+  position: absolute;
+  bottom: -16%;
+  right: 10%;
+  min-width: 80%;
+  min-height: 15%;
+  color: white;
+  background-color: rgba(236, 235, 235, 0.17);
+  backdrop-filter: blur(80px);
+  backdrop-filter: contrast(40%);
+  backdrop-filter: brightness(100%);
+  padding: 0.4rem;
+  width: 5rem;
+  border-radius: .4rem;
+  font-weight: bold;
+  visibility:hidden;
+  border: 1px solid black;
+}
+
+main pre input:hover {
+    background-color: rgba(53, 53, 52, 0.17);
+}
